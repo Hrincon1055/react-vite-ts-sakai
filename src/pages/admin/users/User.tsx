@@ -1,7 +1,7 @@
 import { Button } from 'primereact/button';
 export function User() {
   return (
-    <div className='card flex justify-content-center gap-3'>
+    <div className='card flex flex-column md:flex-row justify-content-center gap-3'>
       <Button label='Primary' />
       <Button label='Secondary' severity='secondary' />
       <Button label='Success' severity='success' />
