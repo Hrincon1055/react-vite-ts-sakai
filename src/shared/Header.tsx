@@ -8,7 +8,7 @@ export function Header() {
     <div className='layout-topbar'>
       <div className='layout-topbar-logo'>
         <img
-          src={`../../images/logo-${
+          src={`../../assets/images/logo-${
             layoutConfig.colorScheme !== 'light' ? 'white' : 'dark'
           }.svg`}
           width='47.22px'
